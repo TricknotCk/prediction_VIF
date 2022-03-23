@@ -9,7 +9,7 @@ function [y_predict,performance,Imp] = ygz_predict(x,y,kfolds,Pre_Method,Method)
 % output:
 %   y_predict    Predictions of outcome variable
 %   performance  Correlation and root-mean-squared-error (RMSE) between predicted and actual values of y
-%   Imp: predictorImportance of decisionn tree or ¦Â of liner model
+%   Imp: predictorImportance of decisionn tree or Â¦Ã‚ of liner model
 %% split data
 nsubs = size(x,1);
 randinds = randperm(nsubs);
