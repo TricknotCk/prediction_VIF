@@ -19,7 +19,7 @@ np = 5000;
 for i=np+1:-1:1
    RandIndex(i,:) = randperm(k);
 end
-%% premutation test 1
+%% permutation test 1
 for i = np:-1:1
     fprintf('%d\n',i)
     [y_predict,performance] = ygz_predict(x(:,3),y1(RandIndex(i,:)),k,Pre_Method,Method);
